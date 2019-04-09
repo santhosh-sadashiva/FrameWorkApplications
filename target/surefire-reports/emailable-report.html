@@ -9,11 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">69,048</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">495,661</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestScripts.FaceBookTestLogin</td><td><a href="#m0">facebooklogin</a></td><td rowspan="1">1554451283533</td><td rowspan="1">34392</td></tr><tr class="passedodd"><td rowspan="1">TestScripts.InvalidLogin</td><td><a href="#m1">facebookinvalidlogin</a></td><td rowspan="1">1554451328641</td><td rowspan="1">11671</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestScripts.FaceBookTestLogin</td><td><a href="#m0">facebooklogin</a></td><td rowspan="1">1554827801490</td><td rowspan="1">310519</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestScripts.InvalidLogin</td><td><a href="#m1">facebookinvalidlogin</a></td><td rowspan="1">1554828199004</td><td rowspan="1">27230</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">TestScripts.FaceBookTestLogin#facebooklogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The title is matching<br/>The title is matching</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">TestScripts.FaceBookTestLogin#facebooklogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The title is matching</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MYDREAMS&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12284, moz:profile: C:\Users\Santhosh S\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c08aec06-3770-401d-9941-46e4eeeb0c31
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at POM.FaceBookLoginPage.clicklogin(FaceBookLoginPage.java:41)
+	at TestScripts.FaceBookTestLogin.facebooklogin(FaceBookTestLogin.java:47)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">TestScripts.InvalidLogin#facebookinvalidlogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Element is present</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
