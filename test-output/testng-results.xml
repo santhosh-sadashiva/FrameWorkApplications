@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[The title is matching]]>
+    </line>
+    <line>
+      <![CDATA[The title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87309" started-at="2019-04-05T05:18:30Z" finished-at="2019-04-05T05:19:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87309" started-at="2019-04-05T05:18:30Z" finished-at="2019-04-05T05:19:57Z">
+      <class name="TestScripts.InvalidLogin">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:TestScripts.InvalidLogin@42f93a98]" name="OpenApplication" is-config="true" duration-ms="18054" started-at="2019-04-05T05:18:30Z" finished-at="2019-04-05T05:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="facebookinvalidlogin()[pri:0, instance:TestScripts.InvalidLogin@42f93a98]" name="facebookinvalidlogin" duration-ms="14281" started-at="2019-04-05T05:18:48Z" finished-at="2019-04-05T05:19:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookinvalidlogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:TestScripts.InvalidLogin@42f93a98]" name="CloseApplication" is-config="true" duration-ms="2232" started-at="2019-04-05T05:19:02Z" finished-at="2019-04-05T05:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- TestScripts.InvalidLogin -->
+      <class name="TestScripts.FaceBookTestLogin">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:TestScripts.FaceBookTestLogin@c46bcd4]" name="OpenApplication" is-config="true" duration-ms="10174" started-at="2019-04-05T05:19:04Z" finished-at="2019-04-05T05:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="facebooklogin()[pri:0, instance:TestScripts.FaceBookTestLogin@c46bcd4]" name="facebooklogin" duration-ms="40190" started-at="2019-04-05T05:19:15Z" finished-at="2019-04-05T05:19:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The title is matching]]>
+            </line>
+            <line>
+              <![CDATA[The title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebooklogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:TestScripts.FaceBookTestLogin@c46bcd4]" name="CloseApplication" is-config="true" duration-ms="2347" started-at="2019-04-05T05:19:55Z" finished-at="2019-04-05T05:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- TestScripts.FaceBookTestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
